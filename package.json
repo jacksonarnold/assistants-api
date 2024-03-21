@@ -5,7 +5,8 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "ts-node ./app.ts"
+        "start": "ts-node ./app.ts",
+        "perplexity": "ts-node ./perplexity-api.ts"
     },
     "keywords": [],
     "author": "",
@@ -15,6 +16,7 @@
         "typescript": "^5.4.2"
     },
     "dependencies": {
+        "api": "^6.1.1",
         "openai": "^4.28.4"
     }
 }
